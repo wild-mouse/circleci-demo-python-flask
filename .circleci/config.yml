@@ -8,4 +8,4 @@ jobs:
           password: $DOCKERHUB_PASSWORD
     steps:
       - checkout
-      - run: pip install -r requiorements/dev.txt
+      - run: pip install -r requirements/dev.txt
